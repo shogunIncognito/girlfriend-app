@@ -3,7 +3,7 @@ const bYes = document.querySelector('#bYes')
 const bNo = document.querySelector('#bNo')
 
 bYes.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('../img/gifBackground.gif')"
+    document.body.style.backgroundImage = "url('./img/gifBackground.gif')"
     containerApp.innerHTML = `
         <div class="yRes">
             <h1>💖Eso pensé💖</h1>
