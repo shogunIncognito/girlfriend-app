@@ -1,0 +1,45 @@
+body {
+  background-color: #11142D;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Lobster Two', cursive;
+}
+
+.botones {
+    margin-top: 30px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(135, 65, 201);
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(94, 62, 124);
+}
+
+.app {
+    padding: 10%;
+}
+
+.yRes {
+    background: #A770EF;  
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); 
+    padding: 20px;
+    border-radius: 40px;
+    border: pink 3px solid;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+}
